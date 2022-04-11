@@ -112,6 +112,7 @@ body {
 .cart {
     display: flex;
     align-items: center;
+
 }
 
 .cart {
@@ -124,7 +125,6 @@ body {
     text-decoration: none;
     list-style: none;
 }
-
 
 
 /* section */
