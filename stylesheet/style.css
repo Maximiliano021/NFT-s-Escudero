@@ -230,15 +230,13 @@ body {
 }
 
 .img {
-    border: solid 6px #ffff;
     background-size: contain;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 0.2s;
 }
 .img:hover{
-        box-shadow: 1px 1px 5px 2px #2b2349;
         transform: scale(1.05);
 }
 .jirafe{
@@ -279,6 +277,7 @@ body {
     border-top-left-radius: 50px;
     text-decoration: none;
 }
+
 .card-grid:hover{
     box-shadow: 1px 1px 5px 2px #2b2349;
     transform: scale(1.05);
@@ -293,8 +292,16 @@ body {
 
 /* explorer */
 .card{
-    background-color: #7da6ad;
+    background-color: #234349;
     border:none;
+    color: #ffff
+}
+.btn-primary{
+    background:#934f89;
+    border:none;
+}
+.btn-primary:hover{
+    background:#61325a;
 }
 .card-body{
     display:block;
@@ -306,6 +313,10 @@ body {
 }
 .btn-primary{
     margin:0 auto;
+}
+
+.btn-group{
+    display:none;
 }
 
 
@@ -361,17 +372,20 @@ body {
 
                 /* sesion.html, nosotros.html */
 .form {
-    width: 50%;
-    display:flex;
+    width: 60%;
+    /* display:flex;
     justify-content: center;
-    height: auto;
+    height: auto; */
     margin: 0 auto 3rem auto;
     padding: 2rem;
-    border-radius: 5%;
-    background-color: #9e6271;
     box-shadow: 0px 0px 10px 1px #5da2f0;
+    background:#f5f5f5;
+    color:black;
+    border-radius:10px;
     font-weight: bold;
-    display:block;
+    /* border-radius: 5%;
+    display:block; */
+    font-size: 0.8rem
 }
 
 .form-section {
@@ -423,7 +437,9 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+.footer-anio{
+    font-size: 15px;
+}
 .footer-title {
     font-size: 2.5rem;
 }
@@ -481,7 +497,7 @@ body {
         width:200px;
     }
     .article{
-        width:100%;
+        width:94%;
     }
     .nosotros-section{
         display:block;
@@ -495,10 +511,26 @@ body {
         width:100%;
         height:50%;
     }
-    .form{
+    /* .form{
         width: 90%;
-    }
+    } */
 }
+.carousel{
+    padding:0;
+}
+.carousel-inner{
+    height:24rem;
+    display:flex;
+    justify-content: center;
+    /* outline:solid 2px red; */
+}
+.carousel-item{
+    margin:0 auto;
+    outline:solid 2rem  yellowgreen;
+    padding:1rem 10rem;
+}
+
+
 
 @media (max-width:776px){
     .article-section{
@@ -519,31 +551,56 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 
+    .article-section-explorer{
+        display: block;
+        width:auto;
+        width: 70%;
+    }
+    .card{
+        margin:1rem 0;
+    }
+    .contain-img{
+        margin:1rem auto;
+        display:flex;
+        justify-content: center;
+        width:100%
+    }
+    .img{
+        width:70%;
+    }
 
 }
 
 @media (max-width:660px){
+    .form .btn-primary{
+        display:flex;
+        justify-content: center;
+    }
+    .btn-group{
+        display:block;
+    }
+    .nav-li{
+        display: block;
+        text-decoration: none;
+    }
     .header{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
-    .article-section-explorer{
-        display: block;
-    }
-    .contain-img{
-        margin:1rem auto;
-        width: 90%;
-        display:flex;
-        justify-content: center;
-    }
-    .img{
-        width:60%;
-    }
-    
     .REGISTRARSE,
-    .CART{
+    .CART,
+    .EXPLORER{
         display:none;
+    }
+    .dropdown-menu .EXPLORER,
+    .dropdown-menu .REGISTRARSE{
+        display:block;
+        margin:5px 0;
+    }
+    .menu-item{
+        text-decoration: none;
+
     }
     .main-index{
         padding:0;
@@ -556,18 +613,23 @@ body {
         margin: 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:1rem;       
+        gap:1rem;     
     }
-    .form{
+    /* .form{
         width: 65%;
         padding: 0;
-    }
+    } */
 }
 
 @media (max-width:490px){
     .EXPLORER,
-    .HOME{
+    .HOME,
+    .SIGN,
+    .CART{
         display:none;
+    }
+    .dropdown-menu .SIGN{
+        display: block;
     }
     .container{
         margin:0;
