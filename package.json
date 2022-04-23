@@ -1,0 +1,19 @@
+{
+  "name": "nft-s-escudero",
+  "version": "1.0.0",
+  "description": "Repositorio para mi proyecto de NFT's , de CODERHOUSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maximiliano021/NFT-s-Escudero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maximiliano021/NFT-s-Escudero/issues"
+  },
+  "homepage": "https://github.com/Maximiliano021/NFT-s-Escudero#readme"
+}

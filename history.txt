@@ -1,0 +1,301 @@
+    1  c:
+    2  c::
+    3  c:/
+    4  c:/users
+    5  c:/users/desktop/
+    6  c:/users/Maxi/desktop/
+    7  c:/users/Maxi/escritorio/
+    8  ls
+    9  ls
+   10  cd demo
+   11  https://github.com/Maximiliano021/Curso.Prep.Henry.git
+   12  git clone https://github.com/Maximiliano021/Curso.Prep.Henry.git
+   13  exit
+   14  cd Curso.Prep.Henry/
+   15  npm install
+   16  exit
+   17  cd Curso.Prep.Henry/
+   18  npm install
+   19  ls
+   20  cd 02-js-i
+   21  ls
+   22  cd homework
+   23  npm test JSI.test.js
+   24  npm test JSI.test.js
+   25  npm test JSI.test.js
+   26  npm test JSI.test.js
+   27   EXIT
+   28  exit
+   29  git --version
+   30  ls
+   31  Curso.Prep.Henry
+   32  Curso.Prep.Henry/
+   33  ls
+   34  Curso.Prep.Henry/
+   35  cd Curso.Prep.Henry/
+   36  cd homework
+   37  ls
+   38  cd 01-Git/
+   39  ls
+   40  cd homework/
+   41  pwd
+   42  exit
+   43  npm start
+   44  cd html5
+   45  ls
+   46  cd ./html5
+   47  cd .../html5
+   48  ls
+   49  cdls
+   50  ls
+   51  :cdls
+   52  ls
+   53  cdhtml5
+   54  cd nueva
+   55  ls
+   56  del .xlsx
+   57  del /.txt
+   58  DEL .txt
+   59  DEL Nuevo-documento-de-texto.txt
+   60  ls
+   61  DEL Nuevo documento de texto.txt
+   62  ls
+   63  git init
+   64  git add .
+   65  git commit -m "voy por localstorage"
+   66  git branch -m main
+   67  git remote add origin https://github.com/Maximiliano021/JavaScript-Moderno.git
+   68  git push -u origin main
+   69  git clone https://github.com/Maximiliano021/JavaScript-Moderno.git
+   70  git clone https://github.com/atralice/Curso.Prep.Henry.git
+   71  git clone https://github.com/Maximiliano021/Curso.Prep.Henry.git
+   72  git fetch https://github.com/Maximiliano021/Curso.Prep.Henry.git
+   73  git clone https://github.com/Maximiliano021/Curso.Prep.Henry.git
+   74  git init
+   75  git status
+   76  rm -rf .git
+   77  git init
+   78  git status
+   79  git add .
+   80  git status
+   81  git status
+   82  git init
+   83  git status
+   84  git status
+   85  git clone https://github.com/Maximiliano021/CUDI---HTML---CSS.git
+   86  git clone https://github.com/Maximiliano021/Trabajo-Final-CUDI.git
+   87  git clone https://github.com/Maximiliano021/Trabajo-Final-CUDI.git
+   88  git clone https://github.com/Maximiliano021/Proyecto-Danza.git
+   89  git init
+   90  git add README.md
+   91  git commit -m "Prototypo"
+   92  git status
+   93  git add .
+   94  git status
+   95  git commit -m "Prototypo"
+   96  git branch -m Main
+   97  git remote add origin https://github.com/Maximiliano021/Proyecto---Danza.git
+   98  git push -u origin main
+   99  git push
+  100  git push -u origin
+  101  git push -u origin Main
+  102  git status
+  103  git status
+  104  git status
+  105  git status
+  106  git main
+  107  git --help
+  108  git pull
+  109  git clone https://github.com/Maximiliano021/Proyecto-Frigorifico.git
+  110  git init
+  111  git init
+  112  git status
+  113  ls
+  114  echo "# Pokemon" >> README.md
+  115  git status
+  116  git add .
+  117  git commit -m "creando el repositorio"
+  118  git remote add origin https://github.com/Maximiliano021/Pokemon.git
+  119  git push -u origin master
+  120  git init
+  121  echo "Proyecto NFT-s de CoderHouse" >> README.md 
+  122  git init
+  123  git commit -m "first commit"
+  124  git status
+  125  git add .
+  126  git commit -m "iniciando repositorio"
+  127  git status
+  128  git remote add origin https://github.com/Maximiliano021/NFTS--CoderHouse.git
+  129  git push -u origin master
+  130  git clone https://github.com/Maximiliano021/NFTs--CoderHouse.git
+  131  clone .
+  132  ls
+  133  cd NFTs--CoderHouse/
+  134  ls
+  135  code .
+  136  code .
+  137  git pull
+  138  git pull
+  139  git status
+  140  git commit -m "eliminado pdf nft"
+  141  git add .
+  142  git commmit -m "eliminado pdf nft"
+  143  git commit -m "eliminado pdf nft"
+  144  git push origin master
+  145  git pull
+  146  git checkout -b 03-SIN_FLEX
+  147  git status
+  148  git add .
+  149  git status
+  150  git push origin 03-SIN_FLEX
+  151  git status
+  152  code .
+  153  git status
+  154  git add .
+  155  git status
+  156  git commit -m "vinculando con css"
+  157  git push origin 03-SIN_FLEX
+  158  git pull
+  159  git pull
+  160  git branch
+  161  git pull https://github.com/Maximiliano021/NFTs--CoderHouse.git 03-SIN_FLEX
+  162  git clone https://github.com/Maximiliano021/NFTs--CoderHouse.git
+  163  ls
+  164  cd NFTs--CoderHouse/
+  165  git branch
+  166  git branch -a
+  167  git checkout 03-SIN_FLEX_ALL
+  168  git branch
+  169  git checkout 03-SIN_FLEX
+  170  git branch
+  171  git checkout 03-SIN_FLEX_ALL
+  172  echo "# CUDI-Prog-in-Phyton" >> README.md
+  173  git init
+  174  git add README.md
+  175  git commit -m "subiendo primer ejercicio"
+  176  git remote add origin https://github.com/Maximiliano021/CUDI-Progr-in-Phyton.git
+  177  git push -u origin master
+  178  close
+  179  exit
+  180  git clone https://github.com/Maximiliano021/NFTs--CoderHouse.git 03-SIN_FLEX
+  181  ls
+  182  cd 03-SIN_FLEX
+  183  ls
+  184  cd index.html
+  185  git pull
+  186  git branch
+  187  git pull
+  188  git branch
+  189  git branch -a
+  190  git checkout 05-FLEX_ALL 
+  191  git pull
+  192  code .
+  193  clear
+  194  git clone https://github.com/Maximiliano021/NFTs--CoderHouse.git 03-SIN_FLEX_ALL
+  195  git pull
+  196  git pull force
+  197  ls
+  198  cd 03-SIN_FLEX_ALL/
+  199  git pull
+  200  git status
+  201  git add .
+  202  git status
+  203  git commit "encabezado con flex"
+  204  git commit -m "encabezado con flex"
+  205  git push origin 05-FLEX_ALL
+  206  git log
+  207  git log
+  208  git status
+  209  git status
+  210  git add .
+  211  git commit -m "Consigna JavaScript"
+  212  git push origin main
+  213  git clone https://github.com/Maximiliano021/Curso.Prep.Henry.git
+  214  git status
+  215  git add .
+  216  git commit -m "hasta 04 verificado y correcto"
+  217  git push origin master
+  218  git pull
+  219  git clone https://github.com/Maximiliano021/Trabajo-Final-CUDI.git
+  220  git clone https://github.com/Maximiliano021/Pagina-Encabezado-1-3
+  221  git clone https://github.com/Maximiliano021/pagina-con-grid.git
+  222  git clone https://github.com/Maximiliano021/landing-page.git
+  223  git clone https://github.com/Maximiliano021/encabezado-rosado.git
+  224  git clone https://github.com/Maximiliano021/Proyecto---Danza.git
+  225  git clone https://github.com/Maximiliano021/landing-page-responsive-figma.git
+  226  git status
+  227  git add .
+  228  git commit -m "#hasta 04-JS-III incluido chequeado y verificado"
+  229  git push origin master
+  230  git status
+  231  git status
+  232  git add .
+  233  git commit -m "ordenamiento"
+  234  git push origin main
+  235  git status
+  236  git add .
+  237  git commit -m "ordenamiento de archivos"
+  238  git push origin main
+  239  git status
+  240  git clone https://github.com/Maximiliano021/Trabajo-Final-CUDI.git
+  241  git status
+  242  ls
+  243  cd Trabajo-Final-CUDI/
+  244  ls
+  245  git status
+  246  git add .
+  247  git commit -m "nombre de carpeta"
+  248  git push origin main
+  249  git status
+  250  git pull
+  251  git pull origin 06-GRID 
+  252  code .
+  253  git clone https://github.com/Maximiliano021/NFTs--CoderHouse.git
+  254  git branch
+  255  ls
+  256  cd NFTs--CoderHouse/
+  257  git branch
+  258  git branch -a
+  259  git checkout 05-FLEX_ALL 
+  260  ls
+  261  cd Notas\ Rapidas/
+  262  ls
+  263  git clone https://github.com/Maximiliano021/Nota-Rapida.git
+  264  git clone https://github.com/Maximiliano021/Nota-Rapida.git
+  265  ls
+  266  cd Nota-Rapida-con-NPM/
+  267  ls
+  268  npm install bootstrap
+  269  npm install bootstrap
+  270  git status
+  271  git pull
+  272  git clone https://github.com/Maximiliano021/NFT-s-Escudero.git
+  273  ls
+  274  cd NFT-Escudero
+  275  cd NFT-s-Escudero/
+  276  ls
+  277  git clone https://github.com/Maximiliano021/NFT-s-Escudero.git
+  278  cd NFT-s-Escudero/
+  279  ls
+  280  git status
+  281  git clone https://github.com/Maximiliano021/NFT-s-Escudero.git
+  282  git status
+  283  git pull origin 06-GRID
+  284  git status
+  285  git add .
+  286  git branch -a
+  287  git commit -m "scroll animation add"
+  288  git push origin master
+  289  git checkout -b 01-Maquetado-Bootstrap
+  290  git status
+  291  git add .
+  292  git commit -m "#" 
+  293  git push origin 01-Maquetado-Bootstrap 
+  294  npm start
+  295  npm install -g sass
+  296  cd ..
+  297  cd
+  298  choco install sass
+  299  npm init
+  300  history
+  301  history > history.txt

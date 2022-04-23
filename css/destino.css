@@ -1,0 +1,22 @@
+div {
+  background-color: rgb(206, 67, 67);
+  color: red;
+  border: 1px solid white;
+}
+div ul {
+  list-style-type: disc;
+}
+div li {
+  background-color: rgb(206, 67, 67);
+  padding: 20px;
+  border: 1px solid rgb(206, 67, 67);
+}
+div a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+/*# sourceMappingURL=destino.css.map */

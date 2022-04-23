@@ -1,0 +1,25 @@
+// ESTO ES UN COMENTARIO DE BLOQUE DE CSS PURO
+$colorprincipal: rgb(206, 67, 67);
+
+
+
+div {
+    background-color:$colorprincipal;
+    color:red;
+    border: 1px solid white;
+    ul{
+        list-style-type: disc;
+    }
+        li{
+            background-color: $colorprincipal;
+            padding:20px;
+            border: 1px solid $colorprincipal;
+        }
+            a{
+                text-decoration: none;
+            }
+}
+
+body{
+    width:100%;
+}
