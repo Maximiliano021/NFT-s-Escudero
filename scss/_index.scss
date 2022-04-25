@@ -1,0 +1,212 @@
+.section {
+    min-width: 40%;
+    height: 60%;
+    padding:1rem;
+    width:50%;
+    margin: auto 10%;
+    transition: 1s;
+    border-radius: 20px;
+    border: inset 1px rgb(179, 179, 179);
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: 0px 1px 1px black;
+    contain: content;
+
+
+
+    box-shadow:  0 10px 30px #723c56;
+    border:1px  #ffffff40;
+    background-color: rgba(241, 237, 237, 0.582);
+}
+
+.ilustration-svg{
+    width:300px
+}
+.section-card {
+    width: 80%;
+    color:#000 !important;
+}
+
+.card-title-prim {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: inherit;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 1px 1px rgb(168, 161, 161);
+    color:#000
+}
+.card-title-sec {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 2px 10px black;
+
+    
+}
+
+.card-parrafo-prim {
+    font-size: 1rem;
+    color:#000;
+    
+    width:100%
+}
+
+
+
+
+/////////////
+
+
+.main-index {
+    width: 100%;
+    color: #ffff;
+}
+
+
+.container-article{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg); */
+    padding:2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.article {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding: 2rem;
+    color:rgb(56, 56, 56);
+    border:outset 1px #d92096;
+    border-radius:9px;
+
+    box-shadow:  0 10px 30px #000;
+    border:1px solid #ffffff40;
+    background-color: rgba(214, 207, 207, 0.507);
+}
+.article-white{
+    background-color: #6323369c;
+}
+
+
+.article-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 2rem;
+    color:rgb(56, 56, 56);
+    background: whitesmoke;
+    padding:0.5rem 1rem;
+}
+
+.article-section{
+    width:90%;
+    margin:auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "jirafe simio"
+    "jirafe pirata";
+}
+
+.contain-img{
+    height: 16rem;
+    width: 12rem;
+    background-size: contain;
+    /* para centrar celdas dentro de padre */
+    justify-self: center;
+    display:flex;
+    /* centrar contenido hijos */
+    align-self: center;
+    margin:0;
+}
+
+.img {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.img:hover{
+        transform: scale(1.05);
+}
+.jirafe{
+    height: auto;
+    width: 25rem;
+    grid-area:jirafe
+}
+.simio{
+    grid-area: simio;
+}
+.pirata{
+    grid-area: pirata;
+}
+
+.article-categ{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
+    padding:2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+
+
+.article-grid {
+    width: 74vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 3rem;
+    transition: ease 1s;
+    row-gap: 4rem;
+    column-gap: 8rem;
+    text-decoration: none;
+    font-style: none;
+
+    box-shadow:  0 10px 30px #000;
+    border:1px solid #ffffff40;
+    background-color: rgba(92, 79, 79, 0.507);
+}
+.container-grid-card{
+    width:90%;
+    margin:0 auto;
+}
+
+
+.img-grid {
+    height: 15rem;
+    width:100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.card-grid{
+    transition: 0.2s;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    text-decoration: none;
+    outline:solid 2px red;
+    max-width: 400px;
+    margin:0 auto;
+    width:85%;
+}
+
+.card-grid:hover{
+    box-shadow: 1px 1px 5px 2px #2b2349;
+    transform: scale(1.05);
+}
+.card-title-div {
+    background-color: white;
+    color: #150d3b;
+    text-decoration: none;
+    font-style: none;
+    text-align: center;
+}

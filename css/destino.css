@@ -1,22 +1,14 @@
-div {
-  background-color: rgb(206, 67, 67);
-  color: red;
-  border: 1px solid white;
-}
-div ul {
-  list-style-type: disc;
-}
-div li {
-  background-color: rgb(206, 67, 67);
-  padding: 20px;
-  border: 1px solid rgb(206, 67, 67);
-}
-div a {
-  text-decoration: none;
-}
+.boton-twitter {
+  background-color: blues; }
 
-body {
-  width: 100%;
-}
+.boton-facebok {
+  background-color: lightblue; }
 
-/*# sourceMappingURL=destino.css.map */
+.boton-mail {
+  background-color: blue; }
+
+.boton-instagram {
+  background-color: red; }
+
+.boton-snapchat {
+  background-color: yellow; }

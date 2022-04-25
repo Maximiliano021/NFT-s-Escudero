@@ -1,0 +1,205 @@
+/* @media */
+@media (max-width:946px){
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+   .section{
+       width:100%;
+   }
+   .section-card{
+       height:auto;
+   }
+    .logo-title{
+        display:none;
+    }
+    .nav-li{
+        padding:0;
+    }
+    .logo-img{
+        width:200px;
+    }
+    .article{
+        width:94%;
+    }
+    .nosotros-section{
+        display:block;
+        padding:0.5rem;
+    }
+    .nosotros-parrafo{
+        text-align: center;
+        margin:0;
+    }
+    .nosotros-img-map{
+        width:100%;
+        height:50%;
+    }
+    .article-section{
+        width: 100%;
+    }
+    .article-grid{
+        width:100%;
+    }
+    .container-grid-card{
+        width:100%;
+    }
+
+}
+.carousel{
+    padding:0;
+}
+.carousel-inner{
+    height:24rem;
+    display:flex;
+    justify-content: center;
+}
+.carousel-item{
+    margin:0 auto;
+    outline:solid 2rem  yellowgreen;
+    padding:1rem 10rem;
+}
+
+
+
+@media (max-width:776px){
+    .article-section{
+        display:grid;
+        width:100%;
+        margin:auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "jirafe jirafe"
+        "jirafe jirafe"
+        "pirata simio";
+        gap:1rem;
+    }
+
+    .article-grid {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .article-section-explorer{
+        display: block;
+        width:auto;
+        width: 70%;
+    }
+    .card{
+        margin:1rem 0;
+    }
+    .contain-img{
+        margin:1rem auto;
+        display:flex;
+        justify-content: center;
+        width:100%
+    }
+    .img{
+        width:70%;
+    }
+
+}
+
+@media (max-width:660px){
+    .form .btn-primary{
+        display:flex;
+        justify-content: center;
+    }
+    
+    .btn-group{
+        display:block;
+    }
+    .nav-li{
+        display: block;
+        text-decoration: none;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .REGISTRARSE,
+    .CART,
+    .EXPLORER{
+        display:none;
+    }
+    .dropdown-menu .EXPLORER,
+    .dropdown-menu .REGISTRARSE{
+        display:block;
+        margin:5px 0;
+    }
+    .menu-item{
+        text-decoration: none;
+
+    }
+    .main-index{
+        padding:0;
+    }
+    .article{
+        width:100%;
+    }
+    .article-grid {
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1rem;     
+    }
+    .section{
+        margin:0;
+        padding:1rem;
+    }
+    .fondo{
+        contain: content;
+    }
+    /* .form{
+        width: 65%;
+        padding: 0;
+    } */
+}
+
+@media (max-width:490px){
+     
+    .article-grid {
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:1rem;     
+    }
+
+    .EXPLORER,
+    .HOME,
+    .SIGN,
+    .CART{
+        display:none;
+    }
+    .dropdown-menu .SIGN{
+        display: block;
+    }
+    body{
+        padding:2px;
+    }
+    .article-section{
+        padding:0;
+    }
+    .img{
+        width:100%;
+    }
+    .jirafe{
+        width:100%;
+    }
+    .footer{
+        text-align: center;
+    }
+    .nosotros-container{
+        padding:0;
+    }
+    .article-title, .nosotros-title{
+        text-align: center;
+    }
+   .article-grid{
+       padding:0;
+   }
+}
