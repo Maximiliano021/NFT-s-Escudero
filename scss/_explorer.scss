@@ -1,27 +1,31 @@
-.card{
-    background-color: #234349;
-    border:none;
-    color: #ffff
+$blanco:#ffff;
+$fondoCards: #234349;
+
+.card {
+    background-color: $fondoCards;
+    color: $blanco;
+    border: none;
 }
-.btn-primary{
-    background:#934f89;
-    border:none;
+
+.btn-primary {
+    background: #934f89;
+    border: none;
 }
-.btn-primary:hover{
-    background:#61325a;
+
+.btn-primary:hover {
+    background: #61325a;
 }
-.card-body{
-    display:block;
+
+.card-body {
+    display: block;
     justify-content: center;
     align-items: center;
 }
-.btn{
-    margin:0 auto;
-}
-.btn-primary{
-    margin:0 auto;
+
+.btn, .btn-primary {
+    margin: 0 auto;
 }
 
-.btn-group{
-    display:none;
+.btn-group {
+    display: none;
 }
