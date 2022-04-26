@@ -4,12 +4,12 @@ $fondoNosotros: url(https://images.alphacoders.com/121/thumb-1920-1218911.jpg);
     width: 60%;
     margin: 0 auto 3rem auto;
     padding: 2rem;
-    box-shadow: 0px 0px 10px 1px #5da2f0;
     background: #f5f5f5;
     color: black;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    box-shadow: 0 10px 30px #723c56;
 }
 
 .form-section {
@@ -27,15 +27,15 @@ $fondoNosotros: url(https://images.alphacoders.com/121/thumb-1920-1218911.jpg);
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    &:hover {
+        background-color: #d35d7b;
+        border-radius: 10px;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+    }
 }
 
-.form-button:hover {
-    background-color: #d35d7b;
-    border-radius: 10px;
-    color: #fff;
-    border: none;
-    font-weight: bold;
-}
 
 .nosotros-container {
     color: #ffff;

@@ -5,25 +5,20 @@ $fondoCards: #234349;
     background-color: $fondoCards;
     color: $blanco;
     border: none;
-}
-
-.btn-primary {
-    background: #934f89;
-    border: none;
-}
-
-.btn-primary:hover {
-    background: #61325a;
-}
-
-.card-body {
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn, .btn-primary {
-    margin: 0 auto;
+        .card-body {
+            display: block;
+            justify-content: center;
+            align-items: center;
+                a {
+                    background: #934f89;
+                    border: none;
+                    margin: 0 auto;
+                }
+                
+                a:hover {
+                    background: #61325a;
+                }
+        }
 }
 
 .btn-group {

@@ -4,6 +4,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+        .nav-li {
+            padding: 0;
+        }
     }
 
     .section-card {
@@ -14,9 +17,6 @@
         display: none;
     }
 
-    .nav-li {
-        padding: 0;
-    }
 
     .logo-img {
         width: 200px;
@@ -29,12 +29,12 @@
     .nosotros-section {
         display: block;
         padding: 0.5rem;
+        .nosotros-parrafo {
+            text-align: center;
+            margin: 0;
+        }
     }
 
-    .nosotros-parrafo {
-        text-align: center;
-        margin: 0;
-    }
 
     .nosotros-img-map {
         height: 50%;
@@ -48,23 +48,6 @@
         width: 100%;
     }
 }
-
-.carousel {
-    padding: 0;
-}
-
-.carousel-inner {
-    height: 24rem;
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-item {
-    margin: 0 auto;
-    outline: solid 2rem yellowgreen;
-    padding: 1rem 10rem;
-}
-
 
 
 @media (max-width:776px) {
