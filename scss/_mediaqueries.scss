@@ -122,7 +122,8 @@
 
     .REGISTRARSE,
     .CART,
-    .EXPLORER {
+    .EXPLORER,
+    .dropdown-menu .HOME {
         display: none;
     }
 
@@ -134,7 +135,6 @@
 
     .menu-item {
         text-decoration: none;
-
     }
 
     .main-index {
@@ -144,13 +144,6 @@
     .article{
         width: 100%;
     }
-
-    // .article-grid {
-    //     margin: 0;
-    //     display: grid;
-    //     grid-template-columns: 1fr 1fr;
-    //     gap: 1rem;
-    // }
 
     .section {
         margin: 0;
@@ -163,13 +156,6 @@
 }
 
 @media (max-width:490px) {
-    // .article-grid {
-    //     margin: 0;
-    //     display: grid;
-    //     grid-template-columns: 1fr;
-    //     gap: 1rem;
-
-    // }
     .footer-anio{
         display:none;
     }
@@ -187,7 +173,8 @@
         display: none;
     }
 
-    .dropdown-menu .SIGN {
+    .dropdown-menu .SIGN,
+    .dropdown-menu .HOME {
         display: block;
     }
 
@@ -199,18 +186,9 @@
         padding: 0;
     }
 
-    // .img,
-    // .article-grid,
-    // .jirafe {
-    //     width: 100%;
-    // }
-
     .article-title,
     .nosotros-title,
-    .nosotros-container
-    // , 
-    // .article-grid
-    {
+    .nosotros-container{
         padding: 0;
     }
 }

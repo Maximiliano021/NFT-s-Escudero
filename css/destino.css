@@ -330,9 +330,6 @@ body {
   height: 100%;
   background: rgba(250, 214, 214, 0.662745098);
   padding: 2rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .container-grid-card {
@@ -717,7 +714,8 @@ body {
 
   .REGISTRARSE,
 .CART,
-.EXPLORER {
+.EXPLORER,
+.dropdown-menu .HOME {
     display: none;
   }
 
@@ -768,7 +766,8 @@ body {
     display: none;
   }
 
-  .dropdown-menu .SIGN {
+  .dropdown-menu .SIGN,
+.dropdown-menu .HOME {
     display: block;
   }
 
