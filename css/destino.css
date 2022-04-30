@@ -183,7 +183,7 @@ body {
   margin: 0 auto;
 }
 #carouselExampleDark .carousel-inner {
-  background: rgba(92, 79, 79, 0.747);
+  background: rgba(101, 84, 84, 0.801);
   padding: 0.5rem;
   border-radius: 5px;
 }
@@ -239,7 +239,6 @@ body {
 .main-index {
   width: 100%;
   color: white;
-  background-color: #906683;
 }
 
 .container-article {
@@ -261,16 +260,17 @@ body {
   border-radius: 3px;
   box-shadow: 0 10px 30px #000;
   border: 1px solid rgba(255, 255, 255, 0.2509803922);
-  background-color: rgba(92, 79, 79, 0.747);
+  background-color: rgba(101, 84, 84, 0.801);
 }
 
 .article-title {
   font-size: 1.5rem;
-  letter-spacing: 0.5rem;
-  margin-bottom: 2rem;
-  color: rgb(56, 56, 56);
-  background: whitesmoke;
+  letter-spacing: 0.8rem;
+  margin: 0.2rem 0 2rem 0;
+  color: rgb(255, 255, 255);
+  background: #823d48;
   padding: 0.5rem 1rem;
+  font-weight: bold;
 }
 
 .article-section {
@@ -320,49 +320,53 @@ body {
   width: 100%;
   height: 100%;
   background-image: url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hijo-article-index {
+  width: 100%;
+  height: 100%;
+  background: rgba(250, 214, 214, 0.662745098);
   padding: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.article-grid {
-  width: 74vw;
+.container-grid-card {
+  margin: 0 auto;
+}
+.container-grid-card .article-grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  padding: 2rem;
   transition: ease 1s;
-  row-gap: 4rem;
-  column-gap: 8rem;
+  gap: 1rem;
+  row-gap: 2rem;
   text-decoration: none;
   font-style: none;
   box-shadow: 0 10px 30px #000;
   border: 1px solid rgba(255, 255, 255, 0.2509803922);
-  background-color: rgba(92, 79, 79, 0.747);
+  background-color: rgba(101, 84, 84, 0.801);
   border-radius: 5px;
-}
-
-.container-grid-card {
-  width: 90%;
-  margin: 0 auto;
+  width: 89%;
 }
 
 .img-grid {
-  height: 15rem;
-  width: 100%;
+  height: 200px;
+  width: 150px;
   border-radius: 7px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .card-grid {
+  height: 200px;
   transition: 0.2s;
   text-decoration: none;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 2px;
-  width: 85%;
+  margin: 0.5rem auto;
   transition: 0.5s ease;
 }
 .card-grid:hover .img-grid {
@@ -413,7 +417,7 @@ body {
 }
 
 .article-white {
-  background-color: rgba(99, 35, 54, 0.9294117647);
+  background-color: rgba(212, 207, 208, 0.9294117647);
 }
 
 .btn-group {
@@ -648,9 +652,7 @@ body {
 
   .nosotros-img-map,
 .section,
-.article-section,
-.article-grid,
-.container-grid-card {
+.article-section {
     width: 100%;
   }
 }
@@ -662,10 +664,6 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "jirafe jirafe" "jirafe jirafe" "pirata simio";
     gap: 1rem;
-  }
-
-  .article-grid {
-    grid-template-columns: 1fr 1fr;
   }
 
   .article-section-explorer {
@@ -707,6 +705,10 @@ body {
     text-decoration: none;
   }
 
+  .form {
+    width: 90%;
+  }
+
   .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -737,13 +739,6 @@ body {
     width: 100%;
   }
 
-  .article-grid {
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
   .section {
     margin: 0;
     padding: 1rem;
@@ -754,19 +749,16 @@ body {
   }
 }
 @media (max-width: 490px) {
-  .article-grid {
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
   .footer-anio {
     display: none;
   }
 
   .footer-info {
     justify-content: center !important;
+  }
+
+  .container-grid-card {
+    width: 100%;
   }
 
   .EXPLORER,
@@ -788,15 +780,8 @@ body {
     padding: 0;
   }
 
-  .img,
-.article-grid,
-.jirafe {
-    width: 100%;
-  }
-
   .article-title,
 .nosotros-title,
-.article-grid,
 .nosotros-container {
     padding: 0;
   }

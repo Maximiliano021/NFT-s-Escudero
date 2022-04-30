@@ -1,4 +1,4 @@
-$fondoArticleGrid:rgba(92, 79, 79, 0.747); 
+$fondoArticleGrid:rgba(101, 84, 84, 0.801); 
 $fondo:rgba(255, 255, 255, 0.8); 
 $fondoImg:url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
 
@@ -88,7 +88,6 @@ $fondoImg:url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
 .main-index {
     width: 100%;
     color: #ffff;
-    background-color:#906683;
 }
 
 .container-article {
@@ -115,11 +114,12 @@ $fondoImg:url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
 
 .article-title {
     font-size: 1.5rem;
-    letter-spacing: 0.5rem;
-    margin-bottom: 2rem;
-    color: rgb(56, 56, 56);
-    background: whitesmoke;
+    letter-spacing: 0.8rem;
+    margin:0.2rem 0 2rem 0;
+    color: rgb(255, 255, 255);
+    background: #823d48;
     padding: 0.5rem 1rem;
+    font-weight: bold;
 }
 
 .article-section {
@@ -172,6 +172,14 @@ $fondoImg:url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
     width: 100%;
     height: 100%;
     background-image:$fondoImg;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.hijo-article-index{
+    width: 100%;
+    height: 100%;
+    background:#fad6d6a9;
     padding: 2rem;
     background-repeat: no-repeat;
     background-size:cover;
@@ -179,44 +187,40 @@ $fondoImg:url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
 }
 
 
-.article-grid {
-    width: 74vw;
+.container-grid-card {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 3rem;
-    transition: ease 1s;
-    row-gap: 4rem;
-    column-gap: 8rem;
-    text-decoration: none;
-    font-style: none;
-    box-shadow: 0 10px 30px #000;
-    border: 1px solid #ffffff40;
-    background-color: $fondoArticleGrid;
-    border-radius: 5px;
+    .article-grid {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(170px,1fr));
+        padding: 2rem;
+        transition: ease 1s;
+        gap:1rem;
+        row-gap: 2rem;
+        text-decoration: none;
+        font-style: none;
+        box-shadow: 0 10px 30px #000;
+        border: 1px solid #ffffff40;
+        background-color: $fondoArticleGrid;
+        border-radius: 5px;
+        width: 89%;
+    }
 }
 
-.container-grid-card {
-    width: 90%;
-    margin: 0 auto;
-}
 
 
 .img-grid {
-    height: 15rem;
-    width: 100%;
+    height: 200px;
+    width: 150px;
     border-radius: 7px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .card-grid {
+    height: 200px;
     transition: 0.2s;
     text-decoration: none;
-    max-width: 400px;
-    margin: 0 auto;
-    padding:2px;
-    width: 85%;
+    margin: 0.5rem auto;
     transition: 0.5s ease;
     &:hover {
         .img-grid{
