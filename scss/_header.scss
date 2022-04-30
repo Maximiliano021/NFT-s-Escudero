@@ -1,8 +1,6 @@
 $fondo:  rgba(34, 32, 32, 0.959);
-$fondoBody: linear-gradient(#33666f 10%, #65858a 90%);
 $fondoContainer: linear-gradient(#7ea7ae 10%, #aed4da 90%);
-
-
+$fondoBody: linear-gradient(-225deg ,#a87d9b 0%, #bb97b0 30%,#e0c3d8 70%);
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +30,7 @@ $fondoContainer: linear-gradient(#7ea7ae 10%, #aed4da 90%);
 }
 
 body {
-    background-image:$fondoBody;
+    background-image: $fondoBody;
     font-family: 'Roboto Mono';
     display: flex;
     justify-content: center;
@@ -41,13 +39,10 @@ body {
 }
 
 .containerr {
-    box-shadow: 0px 0px 10px 5px #2b2349;
-    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #000000;
     width: 100%;
     background-image: $fondoContainer;
 }
-
-
 
 .menu-acordion{
     background: #ffff;
@@ -56,19 +51,8 @@ body {
     padding:0.2rem
 }
 
-.fondoTotal {
-    background-image: url(../imagenes/fondo-explorer.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed
-}
 
 .header {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -110,7 +94,7 @@ body {
 
 .nav-li {
     list-style: none;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     display: inline-block;
     text-decoration: none;
     .nav-item {
@@ -139,7 +123,7 @@ body {
     &::after {
         content: '';
         width: 0%;
-        border: solid 1px #7cd7e3;
+        border: solid 1px #d35d7b;
         opacity: 0;
         margin: auto;
         display: block;

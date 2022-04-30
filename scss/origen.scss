@@ -1,9 +1,12 @@
+ $color-primary: rgb(167, 124, 154);
+ 
  @import './header';
  
+
  @import './index';
- @import './contacto';
- @import './explorer';
  @import './nosotros';
+ @import './explorer';
+ @import './contacto';
  @import './sesion';
  
  @import './footer';

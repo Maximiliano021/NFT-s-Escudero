@@ -16,7 +16,9 @@
     .logo-title {
         display: none;
     }
-
+    .footer{
+        gap:1rem;
+    }
 
     .logo-img {
         width: 200px;
@@ -161,7 +163,15 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
+
     }
+    .footer-anio{
+        display:none;
+    }
+    .footer-info{
+        justify-content: center !important;
+    }
+
 
     .EXPLORER,
     .HOME,
@@ -190,10 +200,6 @@
 
     .article-title,
     .nosotros-title,
-    .footer {
-        text-align: center;
-    }
-
     .article-grid,
     .nosotros-container {
         padding: 0;
