@@ -4,6 +4,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+
         .nav-li {
             padding: 0;
         }
@@ -16,8 +17,9 @@
     .logo-title {
         display: none;
     }
-    .footer{
-        gap:1rem;
+
+    .footer {
+        gap: 1rem;
     }
 
     .logo-img {
@@ -28,9 +30,16 @@
         width: 94%;
     }
 
+    .nosotros-img-map,
+    .section {
+        width: 100%;
+    }
+
+
     .nosotros-section {
         display: block;
         padding: 0.5rem;
+
         .nosotros-parrafo {
             text-align: center;
             margin: 0;
@@ -42,38 +51,12 @@
         height: 50%;
     }
 
-    .nosotros-img-map, 
-    .section,
-    .article-section
-    // , 
-    // .article-grid, 
-    // .container-grid-card  
-    {
-        width: 100%;
-    }
 }
 
 
 @media (max-width:776px) {
-    .article-section {
-        display: grid;
-        margin: auto;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-            "jirafe jirafe"
-            "jirafe jirafe"
-            "pirata simio";
-        gap: 1rem;
-    }
-
-    // .article-grid {
-    //     grid-template-columns: 1fr 1fr;
-    // }
-
     .article-section-explorer {
         display: block;
-        width: auto;
         width: 70%;
     }
 
@@ -84,16 +67,13 @@
     .contain-img {
         margin: 1rem auto;
         display: flex;
+        width: 100%;
         justify-content: center;
     }
 
     .img {
         width: 70%;
     }
-    .contain-img{
-        width:100%;
-    }
-
 }
 
 @media (max-width:660px) {
@@ -102,16 +82,17 @@
         justify-content: center;
     }
 
-    .btn-group {
+    .btn-group,
+    .nav-li {
         display: block;
     }
 
     .nav-li {
-        display: block;
         text-decoration: none;
     }
-    .form{
-        width:90%;
+
+    .form {
+        width: 90%;
     }
 
     .header {
@@ -141,7 +122,7 @@
         padding: 0;
     }
 
-    .article{
+    .article {
         width: 100%;
     }
 
@@ -156,20 +137,19 @@
 }
 
 @media (max-width:490px) {
-    .footer-anio{
-        display:none;
-    }
-    .footer-info{
+    .footer-info {
         justify-content: center !important;
     }
-    .container-grid-card{
-        width:100%;
+
+    .container-grid-card {
+        width: 100%;
     }
 
     .EXPLORER,
     .HOME,
     .SIGN,
-    .CART {
+    .CART,
+    .footer-anio {
         display: none;
     }
 
@@ -182,13 +162,10 @@
         padding: 2px;
     }
 
-    .article-section {
-        padding: 0;
-    }
-
     .article-title,
     .nosotros-title,
-    .nosotros-container{
+    .nosotros-container,
+    .article-section {
         padding: 0;
     }
 }

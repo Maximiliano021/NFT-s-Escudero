@@ -1,42 +1,70 @@
 $blanco:#ffff;
 $fondoCards: #234349;
 
+
 .fondoTotal {
-    background:rgb(162, 162, 162);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100%;
     width: 100%;
+    background-size: cover;
+    background: #fad6d6;
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed
+}
+
+.article {
+    margin: 0 auto;
+    color: rgb(56, 56, 56);
+    @include sizesPadding(80%, auto, 2rem);
+    border: outset 1px #d92096;
+    border-radius: 3px;
+    border: 1px solid #ffffff40;
+    background-color: $fondoArticleGrid;
 }
 
 .card {
     background-color: $fondoCards;
     color: $blanco;
     border: none;
-        .card-body {
-            display: block;
-            justify-content: center;
-            align-items: center;               
-                a:hover {
-                    background: #61325a;
-                }       
+    box-shadow: 0 5px 10px #000;
+
+    .card-body {
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+        a:hover {
+            background: #61325a;
         }
+    }
+}
+
+.contain-img {
+    height: 16rem;
+    width: 12rem;
+    background-size: contain;
+    justify-self: center;
+    display: flex;
+    align-self: center;
+
 }
 
 .article-white {
-    background-color: #d4cfd0ed;
+    background-color: #554444cc;
 }
 
 .btn-group {
     display: none;
 }
-.btn, .btn-primary{
-        background: #934f89;
-        border: none;
-        margin: 0 auto;
+
+.btn,
+.btn-primary {
+    background: #934f89;
+    border: none;
+    margin: 0 auto;
 }
-.btn, .btn-primary:hover{
+
+.btn,
+.btn-primary:hover {
     background: #61325a;
 }

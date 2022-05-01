@@ -7,38 +7,45 @@ $fondo: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
     text-shadow: 1px 1px black;
     background-image: $fondo;
     padding: 0.5rem;
-    margin-top:0.1rem;
+    margin-top: 0.1rem;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
-        h3 {
-            font-size: 2rem;
-        }
-        .icons-container {
-            display: flex;
-            width: 50%;
-            margin: 0 auto;
-            align-items: center;
-            justify-content: space-evenly;
-                li {
-                    list-style: none;
-                    img {
-                        height: 4rem;
-                    }
-                    img:hover {
-                        transform: scale(1.2);
-                        transition: 0.2s;
-                    }
-                }
-        }
-        .footer-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            h4 {
-                font-size: 15px;
-                margin: 0;
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .icons-container {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+
+        li {
+            list-style: none;
+
+            img {
+                height: 4rem;
+            }
+
+            img:hover {
+                transform: scale(1.2);
+                transition: 0.2s;
             }
         }
+    }
+
+    .footer-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+            font-size: 15px;
+            margin: 0;
+        }
+    }
 }
 
 .footer-privacy,
@@ -46,16 +53,19 @@ $fondo: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
     color: white;
     text-decoration: none;
 }
-.footer-privacy{
-    padding:5px;
+
+.footer-privacy {
+    padding: 5px;
     background: #934f89;
     border-radius: 4px;
 }
-.footer-privacy:hover{
+
+.footer-privacy:hover {
     background: #61325a;
-    color:#ffff;
+    color: #ffff;
 }
-.footer-title{
+
+.footer-title {
     letter-spacing: 0.5rem;
     font-weight: bold;
     padding-bottom: 5px;

@@ -1,14 +1,19 @@
- $color-primary: rgb(167, 124, 154);
+ $color-primary: #a77c9a;
  
- @import './header';
- 
+@mixin sizesPadding($width, $height, $padding){
+    width: $width;
+    height: $height;
+    padding: $padding;
+}
 
- @import './index';
- @import './nosotros';
- @import './explorer';
- @import './contacto';
- @import './sesion';
+ @import 'header';
  
- @import './footer';
+ @import 'index';
+ @import 'nosotros';
+ @import 'explorer';
+ @import 'contacto';
+ @import 'sesion';
+ 
+ @import 'footer';
 
- @import './mediaqueries';
+ @import 'mediaqueries';
