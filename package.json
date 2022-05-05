@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "1.0.0",
-  "description": "Repositorio para mi proyecto de NFT's , de CODERHOUSE",
+  "description": "Repositorio de mi proyecto NFT's , de CODERHOUSE el cual esta orientada a la tendencia del arte digital del siglo XXI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Maximiliano021/NFT-s-Escudero.git"
   },
-  "author": "",
+  "author": "Maximiliano Gabriel Escudero",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Maximiliano021/NFT-s-Escudero/issues"

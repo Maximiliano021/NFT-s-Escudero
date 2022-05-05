@@ -1,5 +1,6 @@
  $color-primary: #a77c9a;
  
+/* Un mixin que se utiliza para establecer el ancho, la altura y el relleno de un elemento.. */
 @mixin sizesPadding($width, $height, $padding){
     width: $width;
     height: $height;

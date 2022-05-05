@@ -39,7 +39,6 @@ $fondoNosotros: url(https://images.alphacoders.com/121/thumb-1920-1218911.jpg);
     }
 }
 
-
 $secciones:(
     container:2rem,
     parrafo:5px,
@@ -47,12 +46,13 @@ $secciones:(
     section:2rem
 );
 
+/* Un ciclo que itera sobre el mapa y para cada clave y valor crea una clase con el
+nombre de la clave y el valor de padding. */
 @each $seccion, $tamanio in $secciones {
     .nosotros-#{$seccion} {
         padding: $tamanio;
     }
 }
-
 
 .nosotros-container {
     color: #ffff;
@@ -101,7 +101,6 @@ $secciones:(
     justify-content: center;
     align-items: center;
 }
-
 
 .nosotros-img {
     height: 50%;

@@ -88,19 +88,19 @@ $fondoImg:url(https://images3.alphacoders.com/105/thumb-1920-105379.jpg);
     font-weight: bold;
 }
 
-
 $secciones:(
     prim: 2rem,
     sec: 1.5rem,
     div: 100%
 );
 
+/* Un bucle que itera sobre el mapa y para cada elemento crea una clase con el nombre
+de la clave y el valor de la clave como el tamaño de fuente. */
 @each $seccion, $tamanio in $secciones {
     .card-title-#{$seccion} {
         font-size: $tamanio;
     }
 }
-
 
 .card-parrafo-prim {
     font-size: 1rem;

@@ -154,7 +154,6 @@ $estiloImg:(
     estiloDeTexto:none
 );
 
-
 .signup-img {
     height: map-get($estiloImg, alto);
     text-decoration: map-get($estiloImg, decoracion);
@@ -166,7 +165,6 @@ $estiloImg:(
     text-decoration: map-get($estiloImg, decoracion);
     list-style: map-get($estiloImg, estiloDeTexto);
 }
-
 
 .fondo {
     background-image: url(../imagenes/fondo-index.jpg);

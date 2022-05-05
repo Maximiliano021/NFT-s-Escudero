@@ -1,6 +1,4 @@
-$blanco:#ffff;
 $fondoCards: #234349;
-
 
 .fondoTotal {
     height: 100%;
@@ -24,7 +22,7 @@ $fondoCards: #234349;
 
 .card {
     background-color: $fondoCards;
-    color: $blanco;
+    color:#ffff;
     border: none;
     box-shadow: 0 5px 10px #000;
 
