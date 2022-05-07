@@ -81,7 +81,7 @@ nombre de la clave y el valor de padding. */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 10px 30px #000;
+    box-shadow: 0 5px 10px #000;
     border: 1px solid #ffffff40;
     background-color: $fondoSection;
 }
@@ -89,6 +89,14 @@ nombre de la clave y el valor de padding. */
 .nosotros-parrafo,
 .nosotros-img-div {
     margin: 1rem;
+}
+.nosotros-img {
+    height: 50%;
+}
+
+.nosotros-img-map,
+.nosotros-img {
+    width: 100%;
 }
 
 .parrafo {
@@ -100,13 +108,4 @@ nombre de la clave y el valor de padding. */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.nosotros-img {
-    height: 50%;
-}
-
-.nosotros-img-map,
-.nosotros-img {
-    width: 100%;
 }

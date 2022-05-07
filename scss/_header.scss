@@ -57,6 +57,8 @@ body {
     grid-template-rows: 1fr;
     grid-template-areas:
         "logo - nav";
+    
+    /* define el ancho, alto y el padding */
     @include sizesPadding(100%, 80px, 1rem);
     color: whitesmoke;
     align-items: center;
